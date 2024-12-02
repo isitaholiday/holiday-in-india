@@ -9,13 +9,17 @@ document.addEventListener("DOMContentLoaded", function() {
         '2024-04-25', // Anzac Day
         '2024-06-12', // Queen's Birthday (most states)
         '2024-10-02', // Labour Day (most states)
-        '2024-12-02', // Christmas Day
+        '2024-12-02', // Christmas Day (Make sure this is in the holidays list!)
         '2024-12-26'  // Boxing Day
     ];
 
-    const today = currentDate.toISOString().split('T')[0];
-    
-    if (holidays.includes(today)) {
+    // Get current date in 'YYYY-MM-DD' format
+    const today = currentDate.toLocaleDateString('en-GB');  // Using 'en-GB' ensures the date format is DD/MM/YYYY
+
+    // Adjust format to YYYY-MM-DD to match the format in holidays array
+    const todayFormatted = today.split('/').reverse().join('-');  // Convert to 'YYYY-MM-DD'
+
+    if (holidays.includes(todayFormatted)) {
         holidayStatus.innerText = "Yes, today is a holiday!";
     } else {
         holidayStatus.innerText = "No, today is not a holiday.";
