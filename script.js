@@ -3,12 +3,12 @@ document.addEventListener("DOMContentLoaded", function() {
     const currentDate = new Date();
     const holidays = [
         '2023-01-01', // New Year's Day
+        '2023-01-26', // Australia Day
         '2023-04-07', // Good Friday
         '2023-04-10', // Easter Monday
-        '2023-05-01', // Labor Day
-        '2023-05-18', // Ascension Day
-        '2023-05-29', // Whit Monday
-        '2023-10-03', // Day of German Unity
+        '2023-04-25', // Anzac Day
+        '2023-06-12', // Queen's Birthday (most states)
+        '2023-10-02', // Labour Day (most states)
         '2023-12-25', // Christmas Day
         '2023-12-26'  // Boxing Day
     ];
