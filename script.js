@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", function() {
         '2023-04-25', // Anzac Day
         '2023-06-12', // Queen's Birthday (most states)
         '2023-10-02', // Labour Day (most states)
-        '2023-12-25', // Christmas Day
+        '2023-12-02', // Christmas Day
         '2023-12-26'  // Boxing Day
     ];
 
