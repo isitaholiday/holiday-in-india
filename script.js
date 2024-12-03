@@ -2,15 +2,17 @@ document.addEventListener("DOMContentLoaded", function() {
     const holidayStatus = document.getElementById('holiday-status');
     const currentDate = new Date();
     const holidays = [
-        '2024-01-01', // New Year's Day
-        '2024-01-26', // Australia Day
-        '2024-04-07', // Good Friday
-        '2024-04-10', // Easter Monday
-        '2024-04-25', // Anzac Day
-        '2024-06-12', // Queen's Birthday (most states)
-        '2024-10-02', // Labour Day (most states)
-        '2024-12-25', // Christmas Day (Make sure this is in the holidays list!)
-        '2024-12-26'  // Boxing Day
+'2024-01-01', // New Year's Day
+'2024-04-08', // Eid Al-Fitr (approx. start)
+'2024-04-09', // Eid Al-Fitr (approx. second day)
+'2024-04-10', // Eid Al-Fitr (approx. third day)
+'2024-06-16', // Arafat Day (approx.)
+'2024-06-17', // Eid Al-Adha (approx. start)
+'2024-06-18', // Eid Al-Adha (approx. second day)
+'2024-07-07', // Islamic New Year (Hijri New Year, approx.)
+'2024-09-15', // Prophet Muhammad's Birthday (approx.)
+'2024-12-02', // UAE National Day
+'2024-12-03'  // UAE National Day (second day)
     ];
 
     // Get current date in 'YYYY-MM-DD' format
