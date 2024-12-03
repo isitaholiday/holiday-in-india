@@ -2,17 +2,17 @@ document.addEventListener("DOMContentLoaded", function() {
     const holidayStatus = document.getElementById('holiday-status');
     const currentDate = new Date();
     const holidays = [
-'2024-01-01', // New Year's Day
+'2024-01-26', // Republic Day
+'2024-03-25', // Holi
+'2024-04-10', // Ram Navami
 '2024-04-08', // Eid Al-Fitr (approx. start)
-'2024-04-09', // Eid Al-Fitr (approx. second day)
-'2024-04-10', // Eid Al-Fitr (approx. third day)
-'2024-06-16', // Arafat Day (approx.)
-'2024-06-17', // Eid Al-Adha (approx. start)
-'2024-06-18', // Eid Al-Adha (approx. second day)
-'2024-07-07', // Islamic New Year (Hijri New Year, approx.)
-'2024-09-15', // Prophet Muhammad's Birthday (approx.)
-'2024-12-02', // UAE National Day
-'2024-12-03'  // UAE National Day (second day)
+'2024-08-15', // Independence Day
+'2024-10-02', // Gandhi Jayanti
+'2024-10-13', // Dussehra (Vijayadashami)
+'2024-11-01', // Diwali (Deepavali)
+'2024-11-15', // Govardhan Puja
+'2024-12-25'  // Christmas Day
+
     ];
 
     // Get current date in 'YYYY-MM-DD' format
